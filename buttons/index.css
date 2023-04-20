@@ -1,0 +1,77 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    margin: 20px auto;
+    width: 80%;
+  }
+  .circle-button {
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #cd34db;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    box-shadow: 0 4px #b929b9;
+  }
+  div {
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .circle-button-blue {
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    box-shadow: 0 4px #2980b9;
+  }
+
+  .circle-button-red {
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #db3434;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    box-shadow: 0 4px #b92929;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: none;
+    background-color: #000000;
+  }
+  .circle-button-blue:hover {
+    background-color: #2980b9;
+  }
+  .circle-button-red:hover {
+    background-color: #b92929;
+  }
+  .circle-button:hover {
+    background-color: #b929a6;
+  }
+  
