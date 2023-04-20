@@ -13,7 +13,7 @@
     height: 60px;
     background-color: #cd34db;
     color: white;
-    font-size: 18px;
+    font-size: 90%;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -34,7 +34,7 @@
     height: 60px;
     background-color: #3498db;
     color: white;
-    font-size: 18px;
+    font-size: 90%;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -51,7 +51,7 @@
     height: 60px;
     background-color: #db3434;
     color: white;
-    font-size: 18px;
+    font-size: 90%;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -74,4 +74,10 @@
   .circle-button:hover {
     background-color: #b929a6;
   }
-  
+  @media (max-width: 800px) {
+    div {
+        border: black solid 1px;
+        border-radius: 10px;
+        padding: 10px;
+      }
+  }
