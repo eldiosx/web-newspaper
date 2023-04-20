@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     margin: 20px auto;
     width: 80%;
@@ -9,7 +9,7 @@
     display: inline-block;
     border: none;
     border-radius: 50%;
-    width: 60px;
+    width: 60%;
     height: 60px;
     background-color: #cd34db;
     color: white;
@@ -30,7 +30,7 @@
     display: inline-block;
     border: none;
     border-radius: 50%;
-    width: 60px;
+    width: 60%;
     height: 60px;
     background-color: #3498db;
     color: white;
@@ -47,7 +47,7 @@
     display: inline-block;
     border: none;
     border-radius: 50%;
-    width: 60px;
+    width: 60%;
     height: 60px;
     background-color: #db3434;
     color: white;
