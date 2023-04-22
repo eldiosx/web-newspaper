@@ -1,4 +1,4 @@
-<h1 align="center">Newspaper</h1>
+<h1 align="center">Web Newspaper</h1>
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 
 </div>
 
-## Live demo: [Preview](https://eldiosx.github.io/newspaper/)
+## Live demo: [Preview](https://eldiosx.github.io/web-newspaper/)
 
 Server built and tested in browsers based on Firefox. Any problem, please switch to said browser.
 
