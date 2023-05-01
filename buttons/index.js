@@ -20,11 +20,18 @@ for (let i = 0; i < buttons.length; i++) {
     audios[i].play();
   });
 }
-
 const foodTitle = document.getElementById('foodTitle');
 const foodButtons = document.getElementById('foodButtons');
 const feelingsTitle = document.getElementById('feelingsTitle');
 const feelingsButtons = document.getElementById('feelingsButtons');
+const seasonsTitle = document.getElementById('seasonsTitle');
+const seasonsButtons = document.getElementById('seasonsButtons');
+const weatherTitle = document.getElementById('weatherTitle');
+const weatherButtons = document.getElementById('weatherButtons');
+const weekTitle = document.getElementById('weekTitle');
+const weekButtons = document.getElementById('weekButtons');
+const monthTitle = document.getElementById('monthTitle');
+const monthButtons = document.getElementById('monthButtons');
 const schoolTitle = document.getElementById('schoolTitle');
 const schoolButtons = document.getElementById('schoolButtons');
 const houseTitle = document.getElementById('houseTitle');
@@ -39,6 +46,18 @@ foodTitle.addEventListener('click', () => {
 });
 feelingsTitle.addEventListener('click', () => {
   feelingsButtons.classList.toggle('hidden');
+});
+seasonsTitle.addEventListener('click', () => {
+  seasonsButtons.classList.toggle('hidden');
+});
+weatherTitle.addEventListener('click', () => {
+  weatherButtons.classList.toggle('hidden');
+});
+weekTitle.addEventListener('click', () => {
+  weekButtons.classList.toggle('hidden');
+});
+monthTitle.addEventListener('click', () => {
+  monthButtons.classList.toggle('hidden');
 });
 schoolTitle.addEventListener('click', () => {
   schoolButtons.classList.toggle('hidden');

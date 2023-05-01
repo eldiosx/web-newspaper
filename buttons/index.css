@@ -17,106 +17,66 @@ h1 {
   padding: 20px;
 }
 
-.circle-button {
-  display: inline-block;
-  border: none;
-  border-radius: 50%;
-  width: 60%;
-  height: 60px;
-  background-color: #c0bcc0;
-  color: white;
+.grid-container button {
   font-size: 90%;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   position: relative;
+  color: white;
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 60%;
+  height: 60px;
+}
+
+.circle-button {
+  background-color: #c0bcc0;
   box-shadow: 0 4px #858484;
 }
 
-
 .circle-button-blue {
-  display: inline-block;
-  border: none;
-  border-radius: 50%;
-  width: 60%;
-  height: 60px;
   background-color: #3498db;
-  color: white;
-  font-size: 90%;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  position: relative;
   box-shadow: 0 4px #2980b9;
 }
 
 .circle-button-red {
-  display: inline-block;
-  border: none;
-  border-radius: 50%;
-  width: 60%;
-  height: 60px;
   background-color: #db3434;
-  color: white;
-  font-size: 90%;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  position: relative;
   box-shadow: 0 4px #b92929;
+}
+.circle-button-rose {
+  background-color: #e962c9;
+  box-shadow: 0 4px #b740a1;
+}
+
+.circle-button-green {
+  background-color: #64e962;
+  box-shadow: 0 4px #40b750;
+}
+.circle-button-purple {
+  background-color: #9e58cc;
+  box-shadow: 0 4px #833cab;
+}
+
+.circle-button-lightpurple {
+  background-color: #c671ff;
+  box-shadow: 0 4px #ab55dd;
 }
 
 .circle-button-yellow {
-  display: inline-block;
-  border: none;
-  border-radius: 50%;
-  width: 60%;
-  height: 60px;
   background-color: #dbd034;
-  color: white;
-  font-size: 90%;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  position: relative;
   box-shadow: 0 4px #b9a629;
 }
 
 .circle-button-orange {
-  display: inline-block;
-  border: none;
-  border-radius: 50%;
-  width: 60%;
-  height: 60px;
   background-color: #db9034;
-  color: white;
-  font-size: 90%;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  position: relative;
   box-shadow: 0 4px #b97f29;
 }
 
 .circle-button-brown {
-  display: inline-block;
-  border: none;
-  border-radius: 50%;
-  width: 60%;
-  height: 60px;
   background-color: #a57f26;
-  color: white;
-  font-size: 90%;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  position: relative;
   box-shadow: 0 4px #5d4112;
 }
 
@@ -131,6 +91,21 @@ button:active {
 
 .circle-button-red:hover {
   background-color: #b92929;
+}
+
+.circle-button-rose:hover {
+  background-color: #b740a1;
+}
+.circle-button-green:hover {
+  background-color: #40b750;
+}
+
+.circle-button-purple:hover {
+  background-color: #833cab;
+}
+
+.circle-button-lightpurple:hover {
+  background-color: #ab55dd;
 }
 
 .circle-button-yellow:hover {
