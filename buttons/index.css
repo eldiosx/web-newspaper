@@ -2,12 +2,19 @@ h1 {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   margin: 20px auto;
   width: 30%;
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .circle-button {
@@ -27,11 +34,6 @@ h1 {
   box-shadow: 0 4px #858484;
 }
 
-div {
-  border: black solid 1px;
-  border-radius: 10px;
-  padding: 20px;
-}
 
 .circle-button-blue {
   display: inline-block;
@@ -154,13 +156,11 @@ button:active {
 }
 
 @media (max-width: 800px) {
-  div {
+
+  .grid-container {
     border: black solid 1px;
     border-radius: 10px;
     padding: 10px;
-  }
-
-  .grid-container {
     width: 80%;
     margin: 0, 0, 0, 0;
   }

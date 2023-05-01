@@ -20,3 +20,35 @@ for (let i = 0; i < buttons.length; i++) {
     audios[i].play();
   });
 }
+
+const foodTitle = document.getElementById('foodTitle');
+const foodButtons = document.getElementById('foodButtons');
+const feelingsTitle = document.getElementById('feelingsTitle');
+const feelingsButtons = document.getElementById('feelingsButtons');
+const schoolTitle = document.getElementById('schoolTitle');
+const schoolButtons = document.getElementById('schoolButtons');
+const houseTitle = document.getElementById('houseTitle');
+const houseButtons = document.getElementById('houseButtons');
+const familyTitle = document.getElementById('familyTitle');
+const familyButtons = document.getElementById('familyButtons');
+const expTitle = document.getElementById('expTitle');
+const expButtons = document.getElementById('expButtons');
+
+foodTitle.addEventListener('click', () => {
+  foodButtons.classList.toggle('hidden');
+});
+feelingsTitle.addEventListener('click', () => {
+  feelingsButtons.classList.toggle('hidden');
+});
+schoolTitle.addEventListener('click', () => {
+  schoolButtons.classList.toggle('hidden');
+});
+houseTitle.addEventListener('click', () => {
+  houseButtons.classList.toggle('hidden');
+});
+familyTitle.addEventListener('click', () => {
+  familyButtons.classList.toggle('hidden');
+});
+expTitle.addEventListener('click', () => {
+  expButtons.classList.toggle('hidden');
+});
