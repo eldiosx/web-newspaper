@@ -1,9 +1,12 @@
+h1{
+  text-align: center;
+}
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     margin: 20px auto;
-    width: 80%;
+    width: 30%;
   }
   .circle-button {
     display: inline-block;
@@ -74,10 +77,19 @@
   .circle-button:hover {
     background-color: #b929a6;
   }
+  @media (max-width: 1400px) {
+      .grid-container {
+        width: 60%;
+      }
+  }
   @media (max-width: 800px) {
     div {
         border: black solid 1px;
         border-radius: 10px;
         padding: 10px;
+      }
+      .grid-container {
+        width: 80%;
+        margin: 0, 0, 0, 0;
       }
   }
