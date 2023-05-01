@@ -1,115 +1,167 @@
-h1{
+h1 {
   text-align: center;
 }
+
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 20px auto;
-    width: 30%;
-  }
-  .circle-button {
-    display: inline-block;
-    border: none;
-    border-radius: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 20px auto;
+  width: 30%;
+}
+
+.circle-button {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 60%;
+  height: 60px;
+  background-color: #c0bcc0;
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  box-shadow: 0 4px #858484;
+}
+
+div {
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.circle-button-blue {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 60%;
+  height: 60px;
+  background-color: #3498db;
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  box-shadow: 0 4px #2980b9;
+}
+
+.circle-button-red {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 60%;
+  height: 60px;
+  background-color: #db3434;
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  box-shadow: 0 4px #b92929;
+}
+
+.circle-button-yellow {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 60%;
+  height: 60px;
+  background-color: #dbd034;
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  box-shadow: 0 4px #b9a629;
+}
+
+.circle-button-orange {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 60%;
+  height: 60px;
+  background-color: #db9034;
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  box-shadow: 0 4px #b97f29;
+}
+
+.circle-button-brown {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  width: 60%;
+  height: 60px;
+  background-color: #a57f26;
+  color: white;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  box-shadow: 0 4px #5d4112;
+}
+
+button:active {
+  top: 4px;
+  box-shadow: none;
+}
+
+.circle-button-blue:hover {
+  background-color: #2980b9;
+}
+
+.circle-button-red:hover {
+  background-color: #b92929;
+}
+
+.circle-button-yellow:hover {
+  background-color: #b9a129;
+}
+
+.circle-button-orange:hover {
+  background-color: #b97f29;
+}
+
+.circle-button-brown:hover {
+  background-color: #5d4112;
+}
+
+.circle-button:hover {
+  background-color: #858484;
+}
+
+@media (max-width: 1400px) {
+  .grid-container {
     width: 60%;
-    height: 60px;
-    background-color: #cd34db;
-    color: white;
-    font-size: 90%;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    box-shadow: 0 4px #b929b9;
   }
+}
+
+@media (max-width: 800px) {
   div {
     border: black solid 1px;
     border-radius: 10px;
-    padding: 20px;
-  }
-  .circle-button-blue {
-    display: inline-block;
-    border: none;
-    border-radius: 50%;
-    width: 60%;
-    height: 60px;
-    background-color: #3498db;
-    color: white;
-    font-size: 90%;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    box-shadow: 0 4px #2980b9;
+    padding: 10px;
   }
 
-  .circle-button-red {
-    display: inline-block;
-    border: none;
-    border-radius: 50%;
-    width: 60%;
-    height: 60px;
-    background-color: #db3434;
-    color: white;
-    font-size: 90%;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    box-shadow: 0 4px #b92929;
+  .grid-container {
+    width: 80%;
+    margin: 0, 0, 0, 0;
   }
-
-  .circle-button-yellow {
-    display: inline-block;
-    border: none;
-    border-radius: 50%;
-    width: 60%;
-    height: 60px;
-    background-color: #dbd034;
-    color: white;
-    font-size: 90%;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    box-shadow: 0 4px #b9a629;
-  }
-  
-  button:active {
-    top: 4px;
-    box-shadow: none;
-    background-color: #000000;
-  }
-  .circle-button-blue:hover {
-    background-color: #2980b9;
-  }
-  .circle-button-red:hover {
-    background-color: #b92929;
-  }
-  .circle-button-yellow:hover {
-    background-color: #b9a129;
-  }
-  .circle-button:hover {
-    background-color: #b929a6;
-  }
-  @media (max-width: 1400px) {
-      .grid-container {
-        width: 60%;
-      }
-  }
-  @media (max-width: 800px) {
-    div {
-        border: black solid 1px;
-        border-radius: 10px;
-        padding: 10px;
-      }
-      .grid-container {
-        width: 80%;
-        margin: 0, 0, 0, 0;
-      }
-  }
+}
